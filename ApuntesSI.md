@@ -88,6 +88,6 @@ Agentes reflejos: Eligen sus acciones de acuerdo a lo que están percibiendo
 	Estado inicial y estado final
 		Donde empiezo y a donde quiero llegar
 	
-	![image](https://user-images.githubusercontent.com/36849580/160253538-953a1fcb-59d4-46c5-b7e4-d0486a3c07ba.png)
+![image](https://user-images.githubusercontent.com/36849580/160253538-953a1fcb-59d4-46c5-b7e4-d0486a3c07ba.png)
 
 		
