@@ -17,9 +17,9 @@ para el miercoles de la otra semana video 1, video 2, capitulo 2 rossen
 	
 	Video 1 S1:
 	Inteligencia artifical -> Racionalidad Computacional:
-														Alcanzar de manera optima los objetivos definidos
-														Objetivo -> Funcion de utilidad
-														Actuar racionalmnte: Maximizar la actividad
+							Alcanzar de manera optima los objetivos definidos
+							Objetivo -> Funcion de utilidad
+							Actuar racionalmnte: Maximizar la actividad
 	
 	Areas de la IA:
 		- Reprsentacion del conocimiento - Razonamiento
@@ -41,8 +41,10 @@ para el miercoles de la otra semana video 1, video 2, capitulo 2 rossen
 	Las percepciones las recibe de un ambiente y en ese ambiente ejecuta las acciones. 
 	Los agentes se define como una funcion
 						F : P* -> A
-						La funcion recibe una secuncia de percecpciones (P*) y a partir de esas entradas genera unas acciones (salida)
-		Un agente racional es aquel que escoje cualquier accion que maximiza el valor esperado de la medida de desempeño dada la secuencia de percepciones a la fecha
+						La funcion recibe una secuncia de percecpciones (P*) y a partir de esas entradas genera unas 
+						acciones (salida)
+		Un agente racional es aquel que escoje cualquier accion que maximiza el valor esperado de la medida de desempeño dada la secuencia 
+		de percepciones a la fecha
 			- El agente no es onminicnete: Hace lo mejor que puede con la información que tiene
 			- No es clarividente: No sabe de antemano que va a pasar
 			Para desarollar un agente intelignete se debe especificar el ambiente de desempeño, entonces un agente requiere:
