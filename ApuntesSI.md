@@ -58,4 +58,36 @@ para el miercoles de la otra semana video 1, video 2, capitulo 2 rossen
 ![image](https://user-images.githubusercontent.com/36849580/160250293-61328ddf-9ece-4788-87d6-305b675f3a70.png)
 
 
-Agentes reflejos: Eligen sun acciones de acuerdo a lo que están percibiendo
+Agentes reflejos: Eligen sus acciones de acuerdo a lo que están percibiendo
+
+- Tiene memoria en el estado acutal del mundo, pero no considera las consecuencias de sus acciones futuras
+- Reglas de agente pacman: * Si tiene una galleta al frente, se la come. En el segujndo ejemplo si no tiene una galleta al frente (hay espacios) se queda quieto y no avanza:
+	
+	![image](https://user-images.githubusercontent.com/36849580/160250758-3cce91bd-9f5e-4372-acf2-e39e88c5df39.png)
+
+- La alternativa es un agente que planea: Que pasa en el mundo si se ejecuta una acción
+	Para esto se necestia un modelo del mundo y un objetivo
+	
+### Problema de busqueda: 
+	Un problema de busqueda es un  espacio de estdos
+	![image](https://user-images.githubusercontent.com/36849580/160253154-18e0613c-74bc-4f3d-b9e3-1d9f57738cce.png)
+	
+	Que elementos hay?
+	- Estados
+	- Funcion Sucesora
+	
+	Cuantos estados hay:
+		2^9 : Porque? Pues porque hay 2 estados, hay o no hay galleta y 9 posibles posiciones
+		Pero esto toca multiplicaro por 9m que son las posibles posiciones del pacman: 2^9 * 9
+		Pero a esto adicionalmente toca sumarle la orientacion del pacman, que son 4, entonces
+			2^9 * 9 * 4
+		D ehecho, se ajusta a 2^8 porque el poacman ya esta ocupando una posicion, entonces seria
+			2^8 * 9 * 4
+	Funcion sucesor:
+		Cuando estoy en un estado particular, que pasa con mis acciones
+	Estado inicial y estado final
+		Donde empiezo y a donde quiero llegar
+	
+	![image](https://user-images.githubusercontent.com/36849580/160253538-953a1fcb-59d4-46c5-b7e4-d0486a3c07ba.png)
+
+		
