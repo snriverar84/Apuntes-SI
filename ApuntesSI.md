@@ -52,3 +52,10 @@ para el miercoles de la otra semana video 1, video 2, capitulo 2 rossen
 				- Ambiente
 				- Actuadores
 				- Sensores
+
+## Video 2 semana 2
+
+![image](https://user-images.githubusercontent.com/36849580/160250293-61328ddf-9ece-4788-87d6-305b675f3a70.png)
+
+
+Agentes reflejos: Eligen sun acciones de acuerdo a lo que están percibiendo
